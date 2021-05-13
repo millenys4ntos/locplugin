@@ -4,7 +4,7 @@ function mostraMapa(lat, long){
   L.mapquest.key = 'tGDUfJEaQLBevb0aM22oPgJBDIcSMoIa';
 
         var map = L.mapquest.map('map', {
-          center: [lat, -long],
+          center: [lat, long],
           layers: L.mapquest.tileLayer('map'),
           zoom: 15
         });
